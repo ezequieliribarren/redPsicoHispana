@@ -26,6 +26,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 
@@ -219,7 +220,7 @@ ul, li, ol{
     position: fixed;
     top: 0;
     z-index: 1;
-    height: 11rem;
+    height: 12rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -243,7 +244,7 @@ ul, li, ol{
 }
 .logoimg {
 height: 100%;
-width: 9rem;
+width: 20rem;
 
 }
 
@@ -404,8 +405,11 @@ margin-bottom: 1rem;
 
 
 /* RED HISPANA */
-#redHispana{
+
+
+#laRed{
 margin-top: 10rem;
+scroll-margin-top: 10em;
 }
 
 .flex{
@@ -509,7 +513,9 @@ margin-bottom: 3rem;
 /*------------------------------------------------------------------
     TESTIMONIALS
 -------------------------------------------------------------------*/
-
+#testimonios{
+    scroll-margin-top: 10em;
+}
 
 .desc h3{
     color: black !important;
@@ -669,6 +675,10 @@ margin-bottom: 3rem;
 
 
 /* CONTACTO */
+#contacto{
+    scroll-margin-top: 10em;
+}
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -734,7 +744,7 @@ input::placeholder {
 }
 
 .cac {
-    background-color: #4a8561;
+    background-color: #C9ACDC;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -743,11 +753,11 @@ input::placeholder {
 }
 
 .cac:hover a h3 {
-    color: #fff !important;
+    color: #498563;
 }
 
 .cac a h3 {
-    color: #999;
+    color: #498563;
 }
 
 .cac h3 {
@@ -761,8 +771,9 @@ input::placeholder {
 
 .footer {
     padding: 90px 0 80px !important;
-    color: #999;
-    background-color: #2b5039;
+    color: #498563;
+    background-color: #c9acdc5a;
+    box-shadow: 0 3px 13px #498563;
 }
 
 .footer .widget-title {
@@ -772,16 +783,16 @@ input::placeholder {
 }
 
 .footer .widget-title small {
-    color: #999;
+    color: #498563;
     display: block;
     padding: 0 58px;
     text-transform: uppercase;
 }
 
 .footer .widget-title h3 {
-    color: #fff;
-    font-weight: 500;
-    font-size: 21px;
+    color: #498563;
+    font-weight: 600;
+    font-size: 2.4rem;
     padding: 0;
     margin: 0;
     line-height: 1 !important;
@@ -793,8 +804,9 @@ input::placeholder {
 }
 
 .footer-links a {
-    color: #999;
+    color: #4a8561;
 	display: block;
+    font-size: 1.5rem;
 }
 
 .footer-links.hov a span{
@@ -820,7 +832,7 @@ input::placeholder {
     margin-bottom: 10px;
     display: block;
     width: 100%;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    border-bottom: 1px dashed #4a8561;;
     padding-bottom: 10px;
 }
 
@@ -849,12 +861,13 @@ input::placeholder {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: #498563;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     padding: 50px 60px;
     overflow: hidden;
+    margin: 0;
 }
 
 
@@ -872,14 +885,13 @@ input::placeholder {
 .footer-distributed .footer-links a {
     display: inline-block;
     line-height: 1.8;
-    margin: 0 10px 0 10px;
     text-decoration: none;
 }
 
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+	color: #ffffff;
     padding: 0;
 }
 
@@ -888,7 +900,7 @@ input::placeholder {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #4a8561;
+	color: #ffffff;
 }
 
 
@@ -896,57 +908,6 @@ input::placeholder {
     float: none;
 }
 
-
-.footer-distributed .widget-title p{
-	padding-top: 40px;
-}
-
-.footer-distributed form {
-    position: relative;
-}
-
-.footer-distributed form input {
-    display: block;
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color: #181818;
-    border: none;
-    font: inherit;
-    font-size: 15px;
-    font-weight: normal;
-    color: #999;
-    width: 100%;
-    padding: 18px 50px 18px 18px;
-}
-
-.footer-distributed form input:focus {
-    outline: none;
-}
-
-
-.footer-distributed form input::-webkit-input-placeholder {
-    color: #999;
-}
-
-.footer-distributed form input::-moz-placeholder {
-    opacity: 1;
-    color: #999;
-}
-
-.footer-distributed form input:-ms-input-placeholder {
-    color: #999;
-}
-
-.footer-distributed form i {
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    top: 16px;
-    right: 18px;
-    color: #999;
-    font-size: 18px;
-    margin-top: 6px;
-}
 
 
 /* LOADER  */
@@ -1485,55 +1446,3 @@ input::placeholder {
 .pd-add{
 	padding: 70px 10px;
 }
-.address-item{
-	float: left;
-	margin: 9px 74px;
-	padding: 4px 21px;
-	width: 60%;
-	box-shadow: 10px 10px 4px ;
-    border: solid 2px;
-    border-radius: 5px;
-}
-
-.mailtext {
-    font-size: 15px;
-    margin: 4px -8px 10px;
-}
-
-
-.address-icon{
-	padding: 15px 0px;
-}
-.address-icon i{
-	font-size: 38px;
-	color: #393939;
-}
-
-.address-item h3{
-	font-size: 28px;
-	font-weight: 600;
-	color: #4a8561;
-}
-
-
-.dmtop.show {
-    bottom: 20px;
-}
-
-.googlemap {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
-    box-shadow: 20px 20px 30px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-
