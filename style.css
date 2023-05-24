@@ -244,39 +244,9 @@ width: 20rem;
 .navbar-toggle{
     background-color: #C9ACDC !important;
     border-color: #C9ACDC !important;
-}
-
-@media (max-width: 1000px) {
-    .navbar-collapse{
-        height: auto !important;
-        margin: 1rem;
-    }
-
-   a{
-padding: 0.4rem !important;
-margin: 0rem;
-   } 
-
-   .logoimg {
-    height: 100%;
-    width: 18rem;
     margin-left: 2rem;
-    margin-right: 2rem;
-    
-    }
-    .infoLared{
-        height: 80rem;
-        
-        }
-
 }
 
-@media (max-width: 430px) {
-    .infoLared{
-        height: 90rem !important;
-        
-        }
-}
 
 /* Whatsapp Flotante */
 
@@ -300,7 +270,7 @@ margin: 0rem;
 }
 
 .slider-bg-one {
-    background-image: url("./uploads/carrousel1.jpg");
+    background-image: url("/images/uploads/carrousel1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -312,7 +282,7 @@ margin-top: 3rem;
 }
 
 .slider-bg-two {
-    background-image: url("./uploads/carrousel2.jpg");
+    background-image: url("/images/uploads/carrousel2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,7 +294,7 @@ margin-top: 3rem;
 }
 
 .slider-bg-three {
-    background-image: url("./uploads/carrouselpasaporte.jpg");
+    background-image: url("/images/uploads/carrouselpasaporte.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -834,30 +804,15 @@ input::placeholder {
 .footer-links li {
     margin-bottom: 10px;
     display: block;
-    width: 100%;
+    width: 50%;
     border-bottom: 1px dashed #4a8561;;
     padding-bottom: 10px;
 }
 
-.twitter-widget li {
-    margin-bottom: 0;
-    border: 0 !important;
-}
-
-.twitter-widget li i {
-    border-right: 0 !important;
-    margin-right: 0;
-}
-
-.footer-links li:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border: 0;
-}
 
 .footer-links i {
     display: inline-block;
-    width: 25px;
+    width: 2px;
     margin-right: 10px;
     border-right: 1px dashed rgba(255, 255, 255, 0.1);
 }
@@ -886,7 +841,7 @@ input::placeholder {
 
 .footer-distributed .footer-links a {
     display: inline-block;
-    line-height: 1.8;
+    line-height: 1;
     text-decoration: none;
 }
 
@@ -908,8 +863,6 @@ input::placeholder {
 .footer-distributed .footer-right {
     float: none;
 }
-
-
 
 /* LOADER  */
 #preloader {
@@ -1443,6 +1396,62 @@ input::placeholder {
 
 
 
+/* RESPONSIVE */
 
 
+@media (max-width: 1000px) {
+    .navbar-collapse{
+        height: auto ;
+        margin: 1rem;
+    }
 
+   a{
+padding: 0.4rem ;
+margin: 0rem;
+   } 
+
+   .logoimg {
+    height: 100%;
+    width: 18rem;
+    margin-left: 1.5rem;
+    margin-right: 4rem;
+    
+    }
+    .infoLared{
+        height: 80rem;
+        
+        }
+
+        .whatsFlot {
+            left: 88% ;
+        }
+        
+
+        footer{
+            height: 60rem !important ;
+        }
+}
+
+@media (max-width: 430px) {
+    .infoLared{
+        height: 90rem ;
+        
+        }
+
+        .whatsFlot {
+            left: 70% ;
+        }
+
+        .whatsFlot img {
+            width: 5.2rem;
+        }
+
+        .logoimg {
+            height: 100%;
+            width: 15rem;
+            margin-right: 2rem;
+            margin-left: 0rem;
+            }
+        
+        
+}
