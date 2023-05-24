@@ -19,17 +19,7 @@
     <meta property="og:tittle" content="red de psicologia hispana" />
     <meta property="og:url" content="https://www.redpsicohispana.com/" />
     <meta property="og:site_name" content="redpsicohispana" />
-
     <link rel="shortcut icon" href="./images/icons8-globo-30.png" type="image/x-icon" />
-
-    <!--Whatsapp floit start-->
-    <a href="https://api.whatsapp.com/send?phone=5491161896590&text=Hola%21%20Quisiera%20mas%20informacion%20acerca%20de%20sus%20servicios."
-        class="float" target="_blank">
-        <img src="./images/logos/logowhatsapp2.png" width="50" height="50">
-        <i class="fa fa-WhatsApp my-float"></i>
-    </a>
-    <!--Whatsapp floit end-->
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
@@ -40,7 +30,6 @@
     <link rel="stylesheet" href="./css/whatsapp.css">
     <!-- Modernizer for Portfolio -->
     <script src="js/modernizer.js"></script>
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZMZ1RLL59"></script>
     <script>
@@ -92,9 +81,9 @@
             </div>
         </nav>
     </div>
-    
+
     <!-- START CARROUSEL-->
-    <div class="slider-area">
+    <header class="slider-area">
         <div class="slider-wrapper owl-carousel">
             <div class="slider-item home-one-slider-otem slider-item-four slider-bg-one">
                 <div class="container">
@@ -103,7 +92,8 @@
                             <div class="slide-text">
                                 <h1 class="homepage-three-title"><span>Psicologia</span> en tu idioma</h1>
                                 <h2>Te entendemos, estamos para ayudarte</h2>
-                                <div class="slider-content-btn">
+                                <div>
+                                    <a href="https://wa.me/+5491161896590?text=Hola,%20me%20gustaría%20hacer%20una%20de%20consulta." class="buttonSlider effect-1">Contactanos</a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +109,8 @@
                                     <span>Contención</span> desde tu ubicación
                                 </h1>
                                 <h2>Un espacio para poner en palabras la experiencia. </h2>
-                                <div class="slider-content-btn">
+                                <div>
+                                    <a href="https://wa.me/+5491161896590?text=Hola,%20me%20gustaría%20hacer%20una%20de%20consulta." class="buttonSlider effect-1">Contactanos</a>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +124,8 @@
                             <div class="slide-text">
                                 <h1 class="homepage-three-title">Pasá, <span>Ponete</span> Incómodo</h1>
                                 <h2>"El mejor camino para salir siempre es a través" (Robert Frost)</h2>
-                                <div class="slider-content-btn">
+                                <div>
+                                    <a href="https://wa.me/+5491161896590?text=Hola,%20me%20gustaría%20hacer%20una%20de%20consulta." class="buttonSlider effect-1">Contactanos</a>
                                 </div>
                             </div>
                         </div>
@@ -141,9 +133,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    <!-- Whatsapp Flotante -->
+    <a class='whatsFlot'target="_blank" href="https://wa.me/+5491161896590?text=Hola,%20me%20gustaría%20hacer%20una%20de%20consulta."> <img alt="Chatear en Whatsapp" src="/images/whatsFlot.png"/> </a>
+ </header>
     <!-- END CARROUSEL-->
-
+   
     <!--RED HISPANA-->
     <section id="laRed">
         <div class="container">
@@ -185,10 +179,8 @@
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
-
-
         <!-- EMIGRAR -->
-        <section  class="container section">
+        <div  class="container section">
             <div class="section-title text-center">
                 <h2>Emigrar</h2>
                 <p>Emigrar es un acto de valentía. No cualquier se atreve a salir de su zona de confort para emprender rumbo hacia lo desconocido.</p>
@@ -237,8 +229,8 @@
 </div>
 </div>
                </div>
-            </section>
-
+        </div>
+        </section>
 
     <!-- EQUIPO -->
     <section id="equipo" class="container">
@@ -271,9 +263,7 @@
            </div>
     </section>
         
-
     <!-- TESTIMONIOS -->
-
     <section id="testimonios" class="section wb">
         <div class="container">
             <div class="section-title text-center">
@@ -342,7 +332,6 @@
         </div><!-- end container -->
     </section><!-- end section -->
 
-
     <!-- REDES  -->
     <section id="redes" class="parallax section lb section">
         <div class="container">
@@ -378,21 +367,21 @@
            </div>
            </section>
 
+           <!-- CONTACTO -->
 <section id="contacto" class="section contact">
     <h2>Contactanos</h2>
     <div className='form'>
-         <form action="https://formsubmit.co/info@codefisic.com" method="POST" >
+         <form action="https://formsubmit.co/info@redpsicohispana.com" method="POST" >
         <input class="nombre" type="text" placeholder="Nombre y Apellido" name="nombreyapellido" required/>
         <input class="email" type= "email" placeholder="E-mail" required name="email" />
       <textarea class="textArea" type="text" placeholder="¿En qué podemos ayudarte?" required name="consulta"></textarea>
-      <input class="hiden" type="hiden" name="_next" defaultValue="http://localhost:3000/" /> 
+      <input class="hiden" type="hiden" name="_next" defaultValue="http://www.redpsicohispana.com/" /> 
     <input class="hiden" type="hiden" name="_captcha" defaultValue="false" />
 
     </div>
        <button class="button" type="submit">ENVIAR</button>
 </section>
 
-          
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->

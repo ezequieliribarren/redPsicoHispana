@@ -105,13 +105,6 @@
     animation-fill-mode: both;
 }
 
-.owl-carousel .owl-animated-in {
-
-}
-
-.owl-carousel .owl-animated-out {
-
-}
 
 .owl-carousel .fadeOut {
     -webkit-animation-name: fadeOut;
