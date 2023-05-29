@@ -4,7 +4,7 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -57,7 +57,6 @@ h2 {
     font-weight: 600;
     color: #498563;
     text-align: center;
-    margin-bottom: 3rem;
 }
 h3 {
     font-size: 2.5rem;
@@ -213,34 +212,32 @@ ul, li, ol{
     position: fixed;
     top: 0;
     z-index: 1;
-    height: 14rem;
+    height: 16rem;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100% !important;
     box-shadow: 0 3px 3px #8b8eaf;
 }
 
 .container-fluid{   
     display: flex;
     align-items: center;
+
 }
 
 .navbar-default{
     display: flex;
-
+    margin: 0;
 
 }
 
 .navbar-header{
     display: flex;
     align-items: center;
-}
-
-.logoimg {
-height: 100%;
-width: 20rem;
 
 }
+
+
 .navbar-toggle{
     background-color: #C9ACDC !important;
     border-color: #C9ACDC !important;
@@ -254,12 +251,8 @@ width: 20rem;
     position: fixed;
     top: 87%;
     left: 92%;
+    z-index: 1;
 }
-
-.whatsFlot img {
-        width: 6.2rem;
-    }
-
 
 /*------------------------------------------------------------------
     Banner Slider
@@ -270,8 +263,7 @@ width: 20rem;
 }
 
 .slider-bg-one {
-    background-image: url("/images/uploads/carrousel1.jpg");
-    background-position: center center;
+    background-image: url("/images/uploads/carrousel1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -282,8 +274,7 @@ margin-top: 3rem;
 }
 
 .slider-bg-two {
-    background-image: url("/images/uploads/carrousel2.jpg");
-    background-position: center center;
+    background-image: url("/images/uploads/carrousel2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -294,8 +285,7 @@ margin-top: 3rem;
 }
 
 .slider-bg-three {
-    background-image: url("/images/uploads/carrouselpasaporte.jpg");
-    background-position: center center;
+    background-image: url("/images/uploads/carrouselpasaporte.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -443,15 +433,11 @@ scroll-margin-top: 10em;
     margin-bottom: 2rem;
 }
 
-.imgPresentacion{
-    width: 95%;
-
-}
 
 .infoLared{
-height: 65rem;
 width: 90%;
-margin-top: 3rem;
+margin-top: 4rem;
+height: 60rem;
 
 }
 
@@ -460,29 +446,50 @@ margin-top: 3rem;
     justify-content: center;
     align-items: flex-start;
     border-radius: 3rem;
-    padding: 1rem;
+    padding: 0.7rem;
 }
 
 .laRed{
     align-items: center;
-    height: 48rem;
+    height: 52rem;
     width: 55rem;
     box-shadow: 0 3px 15px #8b8eaf;
+    margin-top: 2rem;
+
+}
+
+.laRed img{
+    width: 100%;
+}
+
+.laRed2{
+    align-items: center;
+    height: 60rem;
+    width: 55rem;
+    box-shadow: 0 3px 15px #8b8eaf;
+    margin-top: 2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 3rem;
+    padding: 0.7rem;
 }
 
 .post-media iframe{
  border-radius: 3rem;
- height: 40rem;
+ height: 57.3rem;
+ width: 38rem;
+
 }
 
 .message-box{
     width: 90%;
     margin-left: 3rem;
-    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 
 #emigrar{
     margin-bottom: 10rem;
@@ -519,7 +526,6 @@ margin-top: 3rem;
     font-size: 2rem;
 }
 .card-img-top{
-    width: 95%;
     border-radius: 3rem;
 }
 
@@ -707,11 +713,6 @@ input::placeholder {
 /*------------------------------------------------------------------
     FOOTER
 -------------------------------------------------------------------*/
-.imgfooter {
-    width: 220px;
-    height: auto;
-}
-
 .cac {
     background-color: #C9ACDC;
     -webkit-transition: all .3s ease-in-out;
@@ -743,7 +744,7 @@ input::placeholder {
     color: #498563;
     background-color: #c9acdc5a;
     box-shadow: 0 3px 13px #498563;
-    height: 33rem;
+    height: 33rem !important;
     display: flex;
     align-items: center;
 }
@@ -1417,26 +1418,98 @@ margin: 0rem;
     margin-right: 4rem;
     
     }
+
+h2{
+    margin-bottom: 5rem;
+}
+
+.section{
+    margin-top: 11rem;
+}
+
     .infoLared{
         height: 80rem;
-        
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         }
+
+        .infoLared p{
+            width: 35rem;
+        }
+
+        .laRed, .laRed2{
+width: 40rem;
+height: 47rem;
+        }
+
+        .post-media iframe{
+            height: 42rem;
+            border-radius: 2rem;
+        }
+
+.message-box{
+margin-top: 3rem;
+}
+
+.pSweet{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
         .whatsFlot {
             left: 88% ;
         }
         
 
-        footer{
-            height: 60rem !important ;
+        .footer{
+            height: 80rem !important ;
         }
 }
-
-@media (max-width: 430px) {
+@media (max-width: 700px) {
     .infoLared{
-        height: 90rem ;
+        height: 60rem;
+        margin-bottom: 4rem;
+        justify-content: center;
+        flex-direction: column;
         
         }
+
+        .pSweet{
+            padding-left: 1rem;
+            padding-right: 1rem;
+font-size: 1.7rem;
+        }
+        
+}
+@media (max-width: 430px) {
+    .infoLared{
+        height: 80rem;
+        }
+
+ p{
+            padding: 1rem;
+            font-size: 1.7rem;
+            text-align: center;
+        }
+
+h3{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .pSweet{
+font-size: 1.5rem;
+        }
+
+        .laRed, .laRed2{
+            width: 28rem;
+        }
+
+  .post-media iframe{
+    width: 27rem;
+  }
 
         .whatsFlot {
             left: 70% ;
