@@ -66,7 +66,10 @@ h4 {
     font-size: 16px
 }
 h5 {
-    font-size: 14px
+    font-size: 14px;
+    color: #498563 !important;
+    margin-top: 1.2rem !important;
+    margin-left: 1rem !important;
 }
 h6 {
     font-size: 13px
@@ -810,7 +813,10 @@ input::placeholder {
     padding-bottom: 10px;
 }
 
-
+.footer h5{
+    color: #2c483a;
+    margin-top: 0.2rem;
+}
 .footer-links i {
     display: inline-block;
     width: 2px;
