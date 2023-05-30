@@ -263,7 +263,7 @@ ul, li, ol{
 }
 
 .slider-bg-one {
-    background-image: url("/images/uploads/carrousel1.webp");
+    background-image: url("./images/uploads/carrousel1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -274,7 +274,7 @@ margin-top: 3rem;
 }
 
 .slider-bg-two {
-    background-image: url("/images/uploads/carrousel2.webp");
+    background-image: url("./images/uploads/carrousel2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -285,7 +285,7 @@ margin-top: 3rem;
 }
 
 .slider-bg-three {
-    background-image: url("/images/uploads/carrouselpasaporte.webp");
+    background-image: url("./images/uploads/carrouselpasaporte.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
