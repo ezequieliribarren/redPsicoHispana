@@ -60,7 +60,7 @@ h2 {
 }
 h3 {
     font-size: 2.5rem;
-    margin-top: 2rem !important;
+    margin-top: 4rem !important;
 }
 h4 {
     font-size: 16px
@@ -507,6 +507,9 @@ height: 60rem;
 
 /* EQUIPO */
 
+#equipo{
+    scroll-margin-top: 3em;
+}
 .psicologas, .cardsEmigrar{
     display: flex;
     justify-content: center;
