@@ -180,11 +180,12 @@ ul, li, ol{
 
 /* Navbar */
 .header_style_01{
-    width: 100%;
+    width: 100% !important;
     display: flex;    
     background-color: rgb(225, 225, 225);
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.30);
     z-index: 1;
+
 
 }
 
@@ -214,29 +215,35 @@ ul, li, ol{
 .navbar{
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1;
     height: 13rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100% !important;
     box-shadow: 0 3px 3px #8b8eaf;
+
 }
 
 .container-fluid{   
     display: flex;
     align-items: center;
 
+
 }
 
 .navbar-default{
     display: flex;
-    margin: 0;
+
+
 
 }
 
 .navbar-header{
     display: flex;
     align-items: center;
+
 
 }
 
@@ -1443,6 +1450,9 @@ input::placeholder {
 /* RESPONSIVE */
 
 @media (max-width: 1000px) {
+    .navbar{
+        height: 16rem;
+    }
     .navbar-collapse{
         height: auto ;
         margin: 1rem;
