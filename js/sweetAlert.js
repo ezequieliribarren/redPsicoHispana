@@ -6,6 +6,8 @@ let emigrar3 = document.querySelector ('.emigrar3')
 let emigrar4 = document.querySelector ('.emigrar4')
 let emigrar5 = document.querySelector ('.emigrar5')
 let emigrar6 = document.querySelector ('.emigrar6')
+let emigrar7 = document.querySelector ('.emigrar7')
+let emigrar8 = document.querySelector ('.emigrar8')
 
 
 emigrar1.onclick = () => {
@@ -67,6 +69,26 @@ width: '80%',
                         confirmButtonColor: '#498563',
                       })
                     }
+
+                    emigrar7.onclick = () => {
+                      Swal.fire({
+                          html: '<div class="sweet"> <h3 class="titleSweet">Lic. Denise Rodera</h3> <p class= "pSweet">Soy Jimena, soy Argentina y soy mamá de Adriano y Cayetana. Dentro de la psicología me dedico a la atención clínica en consultorio online y también a la docencia en carreras terciarias, dando materias del mundo psi. Una profesión que me acompañó desde mí adolescencia ha sido la danza, he sido profesora y coreógrafa en compañías teatrales. Considero que el arte es una herramienta muy poderosa para sanar, transformar y transitar el sufrimiento. <br><br> También me formé como psicodramatista, en donde la integración del teatro y la psicología permiten habilitar espacios terapéuticos de mucha profundidad. El placer más grande para mí es leer y tomar mate (si ambos están juntos mejor!) Dentro de la lectura que me apasiona, se encuentran las ficciones de crímenes, poesías, libros de psicoanálisis (y varios más)<br><br> Me interesa conocer historias alrededor del mundo; creo que las diferencias nos potencian y me interesa acompañar el proceso que cada sujeto necesita respetando sus tiempos.</p> </div>',
+                  width: '80%',
+                          backdrop:"true",
+                          confirmButtonText: 'Volver',
+                          confirmButtonColor: '#498563',
+                        })
+                      }
+
+                      emigrar8.onclick = () => {
+                        Swal.fire({
+                            html: '<div class="sweet"> <h3 class="titleSweet">Lic. Denise Rodera</h3> <p class= "pSweet"> Me formé como Psicóloga, y desde el año 2018 me especializo en psicoanálisis, basada en un enfoque integrativo de acuerdo a la demanda y requerimiento en el tratamiento. Realicé un recorrido inicial en instituciones escolares brindando apoyo psicoemocional, promoviendo la adaptación e inclusión de niños con neurodiversidad. <br><br> Actualmente desarrollo terapias de modo Online a pacientes adultos y adultos jóvenes de habla hispana, enfocadas en temáticas tales como depresión, duelo, trastornos de ansiedad, estrés, autoestima, así como en el acompañamiento de personas motivadas a mejorar su calidad de vida, vínculos sociales, ambientales, familiares y laborales. <br><br> Así mismo, formo parte del equipo de REDPSICOHISPANA, como co-fundadora junto con mi colega y amiga la Lic. Jimena Valiño, proyecto que nació a partir de nuestra experiencia con pacientes que por diversas causas decidieron dejar su país de residencia. Fue a partir de ellos que decidimos enfocar nuestro saber en el acompañamiento terapéutico de personas que se encuentran atravesando procesos complejos, vinculados al duelo migratorio</p></div>',
+                    width: '80%',
+                            backdrop:"true",
+                            confirmButtonText: 'Volver',
+                            confirmButtonColor: '#498563',
+                          })
+                        }
 }
 
 emigrar ();

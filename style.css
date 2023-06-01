@@ -523,16 +523,52 @@ height: 60rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4rem;
+    margin: 3rem;
     padding: 1rem;
     box-shadow: 0 3px 10px #8b8eaf;
+    border-radius: 2rem;
 }
 
 .card-title{
     font-size: 2rem;
+    margin-top: 4rem !important;
+}
+
+.card p {
+    font-size: 1.7rem;
+    margin: 1rem;
 }
 .card-img-top{
     border-radius: 3rem;
+}
+
+.img-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emigrar7, .emigrar8{
+    background-color: #C9ACDC;
+    color: #000000;
+}
+
+.emigrar8{
+    margin-top: 4.85rem !important;
+}
+.emigrar7:hover{
+    color: #2c483a;
+}
+.emigrar8:hover{
+    color: #2c483a;
 }
 
 
