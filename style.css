@@ -215,7 +215,7 @@ ul, li, ol{
     position: fixed;
     top: 0;
     z-index: 1;
-    height: 16rem;
+    height: 13rem;
     display: flex;
     align-items: center;
     width: 100% !important;
@@ -535,7 +535,7 @@ height: 60rem;
 }
 
 .card p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin: 1rem;
 }
 .card-img-top{
@@ -545,7 +545,6 @@ height: 60rem;
 .img-card{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
 }
 
 
@@ -560,9 +559,8 @@ height: 60rem;
     background-color: #C9ACDC;
     color: #000000;
 }
-
-.emigrar8{
-    margin-top: 4.85rem !important;
+.emigrar7{
+    margin: 0.3rem;
 }
 .emigrar7:hover{
     color: #2c483a;
@@ -570,7 +568,9 @@ height: 60rem;
 .emigrar8:hover{
     color: #2c483a;
 }
-
+.buttonsCard{
+    display: flex;
+}
 
 /*------------------------------------------------------------------
     TESTIMONIALS
